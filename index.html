@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anto Park</title>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: #e8e8e0;
+  color: #222;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.wrap {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+h1 {
+  font-size: 1.6em;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+p.sub {
+  font-size: 0.85em;
+  color: #555;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+p.bio {
+  max-width: 500px;
+  margin: 0 auto 24px auto;
+  text-align: center;
+  font-size: 0.92em;
+}
+
+h2 {
+  font-size: 1.1em;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+a.card {
+  display: block;
+  border: 2px solid #999;
+  padding: 12px 16px;
+  background: #f4f4ee;
+  text-decoration: none;
+  color: #222;
+  transition: border-color 0.1s;
+}
+
+a.card:hover {
+  border-color: #000;
+  background: #ffffcc;
+}
+
+a.card:active {
+  background: #ffe0b2;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 4px;
+}
+
+.card-desc {
+  font-size: 0.85em;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.tag {
+  font-size: 0.75em;
+  background: #ddd;
+  border: 1px solid #999;
+  padding: 1px 6px;
+  color: #333;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.78em;
+  color: #888;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+}
+
+.footer a {
+  color: #555;
+}
+
+.footer a:hover {
+  color: #000;
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <h1>Anto Park</h1>
+  <p class="sub">Interactive Projects based on all things Job Search</p>
+  <p class="bio">Mostly HTML, mostly developed with ZotGPT. Disclaimer: opinions expressed are my own. </p>
+
+  <h2>Projects</h2>
+
+  <div class="grid">
+
+    <a class="card" href="https://anto-park.github.io/the-numbers-game/">
+      <div class="card-title">The Numbers Game</div>
+      <div class="card-desc">A job search simulator that attempts to model the experience of applying, networking, interviewing, and navigating the application process.</div>
+      <div class="card-tags">
+        <span class="tag">incremental game</span>
+        <span class="tag">30 minutes</span>
+        <span class="tag">HTML</span>
+      </div>
+    </a>
+
+    <a class="card" href="https://anto-park.github.io/the-networking-flowchart/">
+      <div class="card-title">The Networking Flowchart</div>
+      <div class="card-desc">An interactive decision tree that walks you through the networking process and gives you a strategy based on your situation.</div>
+      <div class="card-tags">
+        <span class="tag">networking</span>
+        <span class="tag">LinkedIn</span>
+        <span class="tag">javascript</span>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="footer">
+    <a href="https://github.com/anto-park">GitHub</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://www.linkedin.com/in/antopark/">LinkedIn</a>
+  </div>
+
+</div>
+
+</body>
+</html>
